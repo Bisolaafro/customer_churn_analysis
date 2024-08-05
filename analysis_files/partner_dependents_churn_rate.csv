@@ -1,0 +1,5 @@
+"partner","dependents","total_customers","churned_customers","churn_rate"
+"No","No","3280","1123","34.238"
+"Yes","No","1653","420","25.408"
+"No","Yes","361","77","21.330"
+"Yes","Yes","1749","249","14.237"
