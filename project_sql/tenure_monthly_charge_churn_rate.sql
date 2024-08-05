@@ -26,9 +26,9 @@ WITH tenure_charge_averages AS  (WITH tenure_charge_churn AS (SELECT
     tenure, tenure_count DESC)
 SELECT
   '1-10_months' AS tenure_length,
-  AVG(average_monthly_charge) AS avg_monthly_charge,
-  MIN(average_monthly_charge) AS min_monthly_charge,
-  MAX(average_monthly_charge) AS max_monthly_charge
+  ROUND(AVG(average_monthly_charge), 3 )AS avg_monthly_charge,
+  ROUND(MIN(average_monthly_charge), 3) AS min_monthly_charge,
+  ROUND(MAX(average_monthly_charge), 3) AS max_monthly_charge
 FROM
   tenure_charge_averages
 WHERE
@@ -38,9 +38,9 @@ UNION
 
 SELECT
   '11-25_months' AS tenure_length,
-  AVG(average_monthly_charge) AS avg_monthly_charge,
-  MIN(average_monthly_charge) AS min_monthly_charge,
-  MAX(average_monthly_charge) AS max_monthly_charge
+  ROUND(AVG(average_monthly_charge), 3 ) AS avg_monthly_charge,
+  ROUND(MIN(average_monthly_charge), 3) AS min_monthly_charge,
+  ROUND(MAX(average_monthly_charge), 3) AS max_monthly_charge
 FROM
   tenure_charge_averages
 WHERE
@@ -50,9 +50,9 @@ UNION
 
 SELECT
   '26-44_months' AS tenure_length,
-  AVG(average_monthly_charge) AS avg_monthly_charge,
-  MIN(average_monthly_charge) AS min_monthly_charge,
-  MAX(average_monthly_charge) AS max_monthly_charge
+  ROUND(AVG(average_monthly_charge), 3 ) AS avg_monthly_charge,
+  ROUND(MIN(average_monthly_charge), 3) AS min_monthly_charge,
+  ROUND(MAX(average_monthly_charge), 3) AS max_monthly_charge
 FROM
   tenure_charge_averages
 WHERE

@@ -4,9 +4,9 @@
 */
 SELECT 
   churn,
-  AVG(monthlycharges) AS avg_monthly_charges,
-  AVG(TotalCharges) AS avg_total_charges,
-  (AVG(totalcharges) / AVG(monthlycharges)) AS avg_tenure_based_on_charges
+  ROUND(AVG(monthlycharges), 3 )AS avg_monthly_charges,
+  ROUND(AVG(TotalCharges), 3 )AS avg_total_charges,
+  ROUND((AVG(totalcharges) / AVG(monthlycharges)), 3 )AS avg_tenure_based_on_charges
 FROM 
   customer_info
 GROUP BY 
