@@ -1,0 +1,10 @@
+[
+  {
+    "maximum_charge": "118.75",
+    "minimum_charge": "18.25",
+    "mean_charge": "64.7616924605991765",
+    "percentile_25": "35.5",
+    "percentile_50": "70.35",
+    "percentile_75": "89.85"
+  }
+]
