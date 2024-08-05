@@ -1,0 +1,5 @@
+"phoneservice","internetservice","total_customers","churned_customers","churn_rate"
+"Yes","Fiber optic","3096","1297","41.893"
+"No","DSL","682","170","24.927"
+"Yes","DSL","1739","289","16.619"
+"Yes","No","1526","113","7.405"
