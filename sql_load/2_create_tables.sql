@@ -37,6 +37,19 @@ WHERE TotalCharges = ' ';
 ALTER TABLE customer_info
 ALTER COLUMN TotalCharges TYPE VARCHAR(50);
 
--- Change TotalCharges column's data type to Numeric
+
+ALTER TABLE customer_info
+ADD totalchargesint NUMERIC(6, 2);
+
 UPDATE customer_info
-SET TotalCharges = CAST(TotalCharges AS NUMERIC);
+SET totalchargesint = CAST(totalcharges AS NUMERIC(6, 2));
+
+
+ALTER TABLE customer_info
+DROP COLUMN totalcharges
+
+
+ALTER TABLE customer_info
+RENAME COLUMN totalchargesint to totalcharges
+
+
