@@ -70,7 +70,7 @@ SELECT
   CASE 
     WHEN churn = 'Yes' THEN 'Likely to churn'
     WHEN tenure <= 10 AND MonthlyCharges > 71 THEN 'High Risk'
-    WHEN tenure <= 25 AND MonthlyCharges BETWEEN 58 AND 79 THEN 'Moderate Risk'
+    WHEN tenure <= 25 AND MonthlyCharges BETWEEN 58 AND 89 THEN 'Moderate Risk'
     ELSE 'Low Risk'
   END AS churn_risk
 FROM 
