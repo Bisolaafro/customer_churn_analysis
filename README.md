@@ -9,7 +9,6 @@ The Telco Customer Churn Analysis project aims to analyze customer churn pattern
   - **NumPy:** For numerical operations and handling arrays.
   - **Matplotlib:** For data visualization to identify patterns and trends in the dataset.
   - **3D Plotting (mpl_toolkits.mplot3d):** Used for advanced visualizations to explore multi-dimensional data relationships.
-  - **Scikit-learn:** For building and evaluating predictive models.
 - **SQL:** For extracting and querying data to visualize
 - **Jupyter Notebook:** For interactive coding, documentation, and visualization in an organized format.
 
