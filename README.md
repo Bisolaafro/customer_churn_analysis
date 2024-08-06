@@ -8,15 +8,15 @@ The Telco Customer Churn Analysis project aims to analyze customer churn pattern
   - **Pandas:** For data cleaning, processing, and manipulation.
   - **NumPy:** For numerical operations and handling arrays.
   - **Matplotlib:** For data visualization to identify patterns and trends in the dataset.
+  - **3D Plotting (mpl_toolkits.mplot3d):** Used for advanced visualizations to explore multi-dimensional data relationships.
   - **Scikit-learn:** For building and evaluating predictive models.
-- **SQL:** For extracting and querying data from relational databases, performing aggregations, and joining multiple tables.
+- **SQL:** For extracting and querying data to visualize
 - **Jupyter Notebook:** For interactive coding, documentation, and visualization in an organized format.
-- **3D Plotting (mpl_toolkits.mplot3d):** Used for advanced visualizations to explore multi-dimensional data relationships.
 
 #### **Project Workflow**
 1. **Data Collection and Loading:**
    - The dataset was obtained in CSV format, containing customer information, service details, account information, and churn status.
-   - The data was loaded into a SQL database for structured querying and into a Pandas DataFrame for processing in Python.
+   - The data was loaded into a PostgreSQL for structured querying and into a Pandas DataFrame for processing in Python.
 
 2. **Data Cleaning:**
    - Handled missing values, corrected data types, and removed duplicates to ensure data quality.
@@ -46,7 +46,7 @@ The Telco Customer Churn Analysis project aims to analyze customer churn pattern
 - **Tenure and Loyalty:** Longer tenure was associated with lower churn, indicating that long-term customers have a lower propensity to leave.
 
 #### **Conclusion**
-This project provided valuable insights into customer behavior and churn patterns for a telecommunications company. By leveraging SQL for data extraction and Python for in-depth analysis and modeling, we could identify actionable strategies to mitigate churn and enhance customer retention.
+This project provided valuable insights into customer behavior and churn patterns for a telecommunications company. By leveraging SQL for data extraction and insights and Python for in-depth analysis and modeling, we could identify actionable strategies to mitigate churn and enhance customer retention.
 
 This analysis serves as a foundation for further investigations and can be extended by incorporating more advanced machine learning models and additional customer data for even deeper insights.
 [View Analysis](visualizations.ipynb)
