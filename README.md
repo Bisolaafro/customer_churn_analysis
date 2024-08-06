@@ -39,10 +39,35 @@ The Telco Customer Churn Analysis project aims to analyze customer churn pattern
    - Noticed that customers who had longer tenure and lower monthly charges tended to stay longer with the service.
    - Suggested offering discounts or loyalty programs for customers at high risk of churning to improve retention.
 
-#### **Key Insights**
-- **Churn Rate Analysis:** Higher churn rates were observed among customers with month-to-month contracts compared to those with longer contracts.
-- **Impact of Monthly Charges:** Customers with higher monthly charges were more likely to churn, suggesting that cost-sensitive customers are at higher risk.
-- **Tenure and Loyalty:** Longer tenure was associated with lower churn, indicating that long-term customers have a lower propensity to leave.
+Based on the comprehensive analysis of various factors influencing customer churn, here are the updated key insights:
+
+### Key Insights
+
+1. **Churn Rate Analysis**:
+   - **Contract Type**: Higher churn rates were observed among customers with month-to-month contracts compared to those with one-year or two-year contracts. Two-year contracts had the lowest churn rates, indicating higher customer retention and satisfaction.
+   - **Paperless Billing**: Customers using paperless billing had higher churn rates compared to those using traditional billing methods, suggesting potential dissatisfaction with the paperless billing process.
+
+2. **Impact of Monthly Charges**:
+   - **Higher Monthly Charges**: Customers with higher monthly charges were more likely to churn, indicating that cost-sensitive customers are at higher risk. This was particularly evident in the medium-high and high charge groups.
+   - **Charge Groups**: Customers in the low charge group had the lowest churn rates, suggesting that lower charges are associated with higher customer retention.
+
+3. **Tenure and Loyalty**:
+   - **Longer Tenure**: Longer tenure was associated with lower churn rates, indicating that long-term customers have a lower propensity to leave. Customers with a tenure of more than two years had the lowest churn rates.
+   - **New Customers**: Customers in their first year had the highest churn rates, highlighting the importance of improving initial customer satisfaction and onboarding processes.
+
+4. **Service Usage**:
+   - **Number of Services**: Customers using three services had the highest churn rates, while those using nine services had the lowest churn rates. This suggests that offering a comprehensive range of services can improve customer retention.
+   - **Streaming Services**: Customers with both streaming TV and streaming movies had lower churn rates compared to those without these services, indicating that offering streaming services can enhance customer satisfaction.
+
+5. **Payment Methods**:
+   - **Electronic Check**: This payment method had the highest churn rates, suggesting dissatisfaction or issues with electronic check payments.
+   - **Automatic Payments**: Customers using automatic bank transfers or credit card payments had lower churn rates, indicating higher satisfaction with these payment methods.
+
+6. **Demographic Factors**:
+   - **Gender**: Both Females and Males had very similar churn rates indicating that there is likely no association between gender and churn rates.
+   - **Partner Status**: Customers without a partner had higher churn rates, indicating that having a partner might be a stabilizing factor.
+   - **Dependents**: Customers without dependents had higher churn rates, suggesting that having dependents might contribute to customer retention.
+
 
 #### **Conclusion**
 This project provided valuable insights into customer behavior and churn patterns for a telecommunications company. By leveraging SQL for data extraction and insights and Python for in-depth analysis and modeling, we could identify actionable strategies to mitigate churn and enhance customer retention.
