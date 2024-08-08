@@ -30,7 +30,7 @@ The Telco Customer Churn Analysis project aims to analyze customer churn pattern
    - Created 2D and 3D bar plots to visualize the relationship between churn and other variables like monthly charges, tenure, and contract type.
    - Used matplotlib for standard plots and `mpl_toolkits.mplot3d` for 3D visualizations to better understand multi-dimensional relationships.
 
-6. **Insights and Recommendations:**
+6. **Some Insights and Recommendations:**
    - Identified that customers with month-to-month contracts and higher monthly charges were more likely to churn.
    - Noticed that customers who had longer tenure and lower monthly charges tended to stay longer with the service.
    - Suggested offering discounts or loyalty programs for customers at high risk of churning to improve retention.
